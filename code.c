@@ -1,8 +1,18 @@
 #include<stdio.h>
+#include <unistd.h> 
+#include <sys/types.h> 
 int main()
 {
-  printf("Hello Linux\n");
-  printf("I am in windows\n");
-  return 0;
+int id = fork();
+if(id==0)
+{
+//child
+sleep(1);
+}else
+{
+//father
+sleep(5);
 }
 
+return 0;
+}
