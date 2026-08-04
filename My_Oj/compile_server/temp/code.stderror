@@ -1,0 +1,4 @@
+./temp/code.cpp: In function ‘int main()’:
+./temp/code.cpp:5:5: error: ‘aaaa’ was not declared in this scope
+    5 |     aaaa
+      |     ^~~~
